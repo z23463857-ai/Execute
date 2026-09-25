@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Execute — Tu Centro de Mando Personal</title>
+  <link rel="icon" href="logo.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav class="navbar">
+    <div class="nav-content">
+      <a href="#" class="nav-logo">
+        <span class="nav-logo-icon">⚡</span>
+        <span>Execute</span>
+      </a>
+      <div class="nav-links">
+        <a href="#features">Funciones</a>
+        <a href="#transform">Tu Vida</a>
+        <a href="#discipline">Disciplina</a>
+        <a href="Execute-Setup.exe" download="Execute-Setup.exe" class="nav-download-btn">
+          Descargar
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3M7 10l5 5 5-5"/><path d="M3 15v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4"/></svg>
+        </a>
+      </div>
+      <button class="nav-hamburger" id="navHamburger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#features" class="mobile-link">Funciones</a>
+    <a href="#transform" class="mobile-link">Tu Vida</a>
+    <a href="#discipline" class="mobile-link">Disciplina</a>
+    <a href="Execute-Setup.exe" download="Execute-Setup.exe" class="mobile-link mobile-download">Descargar</a>
+  </div>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-glow glow-1"></div>
+    <div class="hero-glow glow-2"></div>
+    <div class="hero-glow glow-3"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Centro de Mando Personal
+      </div>
+
+      <h1 class="hero-title">
+        Bienvenido a<br>
+        <span class="hero-gradient">Execute</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        La plataforma definitiva para dominar tus hábitos, controlar tus finanzas, 
+        optimizar tu entrenamiento y alcanzar el enfoque profundo. Todo en una sola app 
+        que funciona sin internet.
+      </p>
+
+      <div class="hero-cta">
+        <a href="Execute-Setup.exe" download="Execute-Setup.exe" class="btn-primary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          Descargar para Windows
+        </a>
+        <a href="#features" class="btn-secondary">Explorar funciones</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">4</span>
+          <span class="stat-label">Módulos</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Offline</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">∞</span>
+          <span class="stat-label">Potencial</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURES ============ -->
+  <section class="features" id="features">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Ecosistema Completo</span>
+        <h2 class="section-title">Todo lo que necesitas para<br><span class="text-gradient">dominar tu vida</span></h2>
+        <p class="section-desc">Cuatro módulos potentes diseñados para transformarte en la mejor versión de ti mismo.</p>
+      </div>
+
+      <div class="features-grid">
+
+        <!-- Hábitos -->
+        <div class="feature-card">
+          <div class="feature-icon" style="background: linear-gradient(135deg, #10b981, #059669);">🌿</div>
+          <h3>Hábitos Gadzhi</h3>
+          <p>Construye tu mejor versión día a día. Crea, edita y marca hábitos diarios. Visualiza tu progreso en un calendario mensual y mantén rachas que forjan disciplina.</p>
+          <ul class="feature-list">
+            <li>Rastreo diario de hábitos</li>
+            <li>Calendario visual mensual</li>
+            <li>Estadísticas y rachas</li>
+            <li>Notas y reflexiones</li>
+          </ul>
+        </div>
+
+        <!-- VitalTrack -->
+        <div class="feature-card">
+          <div class="feature-icon" style="background: linear-gradient(135deg, #00f5a0, #00d9f5);">💪</div>
+          <h3>VitalTrack</h3>
+          <p>Entrenamiento inteligente y métricas corporales. Lleva el control completo de tu progreso físico con datos reales.</p>
+          <ul class="feature-list">
+            <li>Registro de entrenamientos</li>
+            <li>Métricas corporales</li>
+            <li>Gráficos de progreso</li>
+            <li>Rutinas personalizadas</li>
+          </ul>
+        </div>
+
+        <!-- FlowState -->
+        <div class="feature-card">
+          <div class="feature-icon" style="background: linear-gradient(135deg, #a855f7, #ec4899);">⏳</div>
+          <h3>FlowState</h3>
+          <p>Trabajo secuencial y recetas de enfoque profundo. Elimina distracciones y entra en estado de flujo con sesiones cronometradas.</p>
+          <ul class="feature-list">
+            <li>Trabajo secuencial por bloques</li>
+            <li>Temporizador de enfoque</li>
+            <li>Recetas de productividad</li>
+            <li>Historial de sesiones</li>
+          </ul>
+        </div>
+
+        <!-- Finanzas -->
+        <div class="feature-card">
+          <div class="feature-icon" style="background: linear-gradient(135deg, #f59e0b, #eab308);">💵</div>
+          <h3>Finanzas 50/30/20</h3>
+          <p>Gestor de ingresos con la regla 50/30/20. Controla cada peso que entra y sale. Toma decisiones financieras inteligentes.</p>
+          <ul class="feature-list">
+            <li>Regla 50/30/20 automática</li>
+            <li>Registro de ingresos y gastos</li>
+            <li>Metas de ahorro</li>
+            <li>Reportes visuales</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRANSFORM YOUR LIFE ============ -->
+  <section class="transform" id="transform">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">El cambio empieza aquí</span>
+        <h2 class="section-title">Cómo Execute<br><span class="text-gradient">cambiará tu vida</span></h2>
+      </div>
+
+      <div class="transform-grid">
+
+        <div class="transform-card">
+          <div class="transform-number">01</div>
+          <h3>De caos a control total</h3>
+          <p>Deja de vivir reaccionando. Con Execute organizas cada área de tu vida en un solo lugar: hábitos, dinero, entrenamiento y productividad. Tú decides cómo vives cada día.</p>
+        </div>
+
+        <div class="transform-card">
+          <div class="transform-number">02</div>
+          <h3>Consistencia que construye imperios</h3>
+          <p>Los grandes resultados no vienen de la motivación, vienen de la repetición. Execute te ayuda a crear sistemas diarios que se acumulan con el tiempo y generan resultados exponenciales.</p>
+        </div>
+
+        <div class="transform-card">
+          <div class="transform-number">03</div>
+          <h3>Libertad financiera real</h3>
+          <p>Cada peso cuenta. Con el módulo de finanzas 50/30/20 vas a entender a dónde va tu dinero y vas a empezar a construir riqueza de verdad, sin excusas.</p>
+        </div>
+
+        <div class="transform-card">
+          <div class="transform-number">04</div>
+          <h3>Enfoque profundo, resultados reales</h3>
+          <p>En un mundo de distracciones infinitas, tu atención es tu superpoder. FlowState te entrena para concentrarte como un láser y producir trabajo de élite.</p>
+        </div>
+
+        <div class="transform-card">
+          <div class="transform-number">05</div>
+          <h3>Tu cuerpo es tu templo</h3>
+          <p>No puedes conquistar el mundo si no conquistas tu cuerpo primero. VitalTrack te da las herramientas para llevar tu físico al siguiente nivel con datos reales.</p>
+        </div>
+
+        <div class="transform-card">
+          <div class="transform-number">06</div>
+          <h3>Sin excusas: funciona offline</h3>
+          <p>No necesitas WiFi, no necesitas datos. Execute funciona 100% sin conexión. Tu productividad no depende de una señal de internet.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DISCIPLINE QUOTES ============ -->
+  <section class="discipline" id="discipline">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Mentalidad de Élite</span>
+        <h2 class="section-title">Frases que forjan<br><span class="text-gradient">disciplina</span></h2>
+        <p class="section-desc">Las palabras correctas en el momento correcto pueden cambiar tu destino.</p>
+      </div>
+
+      <div class="quotes-grid">
+
+        <div class="quote-card">
+          <div class="quote-mark">"</div>
+          <p class="quote-text">La disciplina es el puente entre tus metas y tus logros.</p>
+          <cite class="quote-author">— Jim Rohn</cite>
+        </div>
+
+        <div class="quote-card featured">
+          <div class="quote-mark">"</div>
+          <p class="quote-text">No cuentes los días, haz que los días cuenten.</p>
+          <cite class="quote-author">— Muhammad Ali</cite>
+        </div>
+
+        <div class="quote-card">
+          <div class="quote-mark">"</div>
+          <p class="quote-text">La motivación te pone en marcha. El hábito te mantiene en movimiento.</p>
+          <cite class="quote-author">— Jim Ryun</cite>
+        </div>
+
+        <div class="quote-card">
+          <div class="quote-mark">"</div>
+          <p class="quote-text">Sufrir la disciplina de hacer lo correcto o sufrir el dolor del arrepentimiento. Tú eliges.</p>
+          <cite class="quote-author">— Jocko Willink</cite>
+        </div>
+
+        <div class="quote-card featured">
+          <div class="quote-mark">"</div>
+          <p class="quote-text">Eres lo que haces repetidamente. La excelencia no es un acto, es un hábito.</p>
+          <cite class="quote-author">— Aristóteles</cite>
+        </div>
+
+        <div class="quote-card">
+          <div class="quote-mark">"</div>
+          <p class="quote-text">El dolor de hoy es la fuerza de mañana. No te rindas.</p>
+          <cite class="quote-author">— David Goggins</cite>
+        </div>
+
+        <div class="quote-card">
+          <div class="quote-mark">"</div>
+          <p class="quote-text">Primero hacemos nuestros hábitos, después nuestros hábitos nos hacen a nosotros.</p>
+          <cite class="quote-author">— John Dryden</cite>
+        </div>
+
+        <div class="quote-card featured">
+          <div class="quote-mark">"</div>
+          <p class="quote-text">El éxito no es para los que piensan en empezar mañana, es para los que empiezan hoy.</p>
+          <cite class="quote-author">— Anónimo</cite>
+        </div>
+
+        <div class="quote-card">
+          <div class="quote-mark">"</div>
+          <p class="quote-text">La autodisciplina empieza con dominar tus pensamientos. Si no controlas lo que piensas, no puedes controlar lo que haces.</p>
+          <cite class="quote-author">— Napoleon Hill</cite>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DOWNLOAD ============ -->
+  <section class="download" id="download">
+    <div class="download-glow glow-dl-1"></div>
+    <div class="download-glow glow-dl-2"></div>
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Disponible para Windows</span>
+        <h2 class="section-title download-title">Descarga Execute<br><span class="text-gradient">y transforma tu vida hoy</span></h2>
+        <p class="section-desc">Un clic. Una decisión. Un nuevo comienzo. Execute se instala en tu computadora como cualquier aplicación de escritorio.</p>
+      </div>
+
+      <div class="download-box">
+        <div class="download-icon-wrap">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color: #3b82f6;">
+            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+            <line x1="8" y1="21" x2="16" y2="21"/>
+            <line x1="12" y1="17" x2="12" y2="21"/>
+          </svg>
+        </div>
+        <h3 class="download-app-name">Execute para Windows</h3>
+        <p class="download-version">Versión 1.0 · Windows 10/11 · Instalador (.exe)</p>
+
+        <a href="Execute-Setup.exe" download="Execute-Setup.exe" class="download-btn">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          Descargar para Windows
+        </a>
+
+        <div class="download-note">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          <span>Al descargar, tu navegador puede verificar el archivo. Es normal. Ejecuta el instalador y Execute aparecerá en tu menú de inicio como cualquier app.</span>
+        </div>
+      </div>
+
+      <div class="download-steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <h4>Descarga</h4>
+          <p>Haz clic en el botón y descarga el archivo .exe</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h4>Instala</h4>
+          <p>Ejecuta el instalador en tu PC con Windows</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h4>Ejecuta</h4>
+          <p>Búscala en el menú de inicio y abre Execute</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <span class="footer-logo">⚡ Execute</span>
+        <p>Tu centro de mando personal para hábitos, finanzas, entrenamiento y enfoque profundo.</p>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Execute — Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Navbar scroll effect
+    const navbar = document.querySelector('.navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Mobile menu
+    const hamburger = document.getElementById('navHamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      mobileMenu.classList.toggle('open');
+    });
+
+    // Close mobile menu on link click
+    document.querySelectorAll('.mobile-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        mobileMenu.classList.remove('open');
+      });
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // Intersection Observer for animations
+    const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.feature-card, .transform-card, .quote-card, .step, .download-box').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+
+</body>
+</html>
